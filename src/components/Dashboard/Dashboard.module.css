@@ -1,0 +1,41 @@
+.dashboard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttonGroup {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttonGroup button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttonGroup button:hover {
+    background-color: #1890ff;
+    color: #fff;
+  }
+  
+  .tableContainer,
+  .chartContainer {
+    width: 50;
+    height: 50;
+    max-width: 1200px;
+    margin-top: 20px;
+  }
+  
